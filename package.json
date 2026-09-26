@@ -1,0 +1,18 @@
+{
+  "name": "pokemarket-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.21.0",
+    "@types/node": "^22.15.0",
+    "ws": "^8.18.0",
+    "@types/ws": "^8.18.1"
+  }
+}
